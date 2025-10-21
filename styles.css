@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(42, 42, 42);
 }
 
 h1 {
@@ -24,7 +24,7 @@ span:hover {
     background-color: orangered;
     border: 3px solid orange;
     border-radius: 10px;
-    cursor:-webkit-grab
+    cursor:-webkit-grab;
 }
 
 span::after {
@@ -32,9 +32,10 @@ span::after {
 }
 
 span:active::after {
-    content: "💀"
+    content: "💀";
+    cursor:-webkit-grabbing;
 }
 
 #s5:active::after {
-    content: "👻"
+    content: "👻";
 }
